@@ -1,0 +1,170 @@
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #bbbbbb;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #444444;
+  border: 1px solid #444444;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  background: #444444;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: none;
+}
+
+section {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+}
+
+div.absolute {
+  position: absolute;
+}
+
+#bglogin {
+  padding-bottom: 13.25rem;
+  background-image: url(bglogin.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px 1200px;
+}
+
+#login {
+  align-items: center;
+  border-radius: 20px;
+  background: #bbbbbb;
+  width: 500;
+  height: auto;
+  margin: 25px auto;
+  padding: 50px 50px;
+  display: block;
+  box-shadow: 4px 4px 20px rgb(230, 228, 228);
+  border: 2px solid #444444;
+}
+
+#jadwal {
+  background-color: #bbbbbb;
+}
+
+.all-hr {
+  background: #000000;
+  height: 4px;
+  width: 100px;
+}
+
+.aktivitas-hr {
+  background: #000000;
+  height: 4px;
+  width: 200px;
+}
+
+.bar {
+  background-color: #00ccff;
+}
+
+.detel {
+  margin-left: 8%;
+  margin-top: 15%;
+  z-index: 2;
+}
+
+.detel h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.detel p {
+  color: #555;
+  line-height: 22px;
+  z-index: 2;
+}
+
+.detel a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  z-index: 1;
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+  z-index: 1;
+}
+
+.images:hover .shape {
+  bottom: 40px;
+  z-index: 1;
+}
+
+.images:hover .rizqi {
+  left: 45%;
+  z-index: 1;
+}
+
+.social {
+  position: relative;
+  margin-left: 8%;
+  margin-top: 25px;
+}
+
+.social h6 {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px #444444;
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: #444444;
+  color: #fff;
+}
+
+th {
+  text-align: center;
+}
+
+thead.th {
+  background-color: #444444;
+}
+
+tbody.tr {
+  background-color: rgba(255, 255, 255, 0.3);
+}
